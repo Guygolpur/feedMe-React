@@ -1,0 +1,69 @@
+* { 
+	padding:0;
+	margin:0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/*   Nav into rout.js    */
+.logo{
+  font-size: 5rem;
+  position: relative;
+  bottom: 9px;
+  right: 200px;
+  left: 17vw;
+  color: white;
+
+} 
+.navbar-brand{
+  margin-left: 80px;
+  font-size: 2vw;
+  font-family: 'Acme';
+}
+.navAndLogo{
+  display: block;
+  height: 240px;
+
+}
+.navbar-light .navbar-brand{
+  color: white;
+  font-weight: bold;
+  position: relative;
+  left: 21vw;
+  
+
+}
+a.btn.disabled{
+  width: 387px;
+  height: 74px;
+  font-size: 38px;
+  margin: 18px;
+  top: 70px;
+  position: relative;
+}
+.bg-dark {
+  background-color: #343a40!important;
+  opacity: 0.90;
+}
+.Navbar{
+  display: block;
+  height: 86px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+
+}

@@ -1,0 +1,34 @@
+.register{
+	background: url('../../photos/cover.jpg') no-repeat;
+	background-size:cover;
+	background-repeat:no-repeat;
+	min-height: 1150px;
+	text-align: center;
+	font-family: 'Arial';
+	color: #ffffff;
+}
+
+.register h1 {
+	font-size: 96px;
+	margin-top: 200px;
+	display: inline-block;
+}
+.register p {
+	margin-top: 40px;
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+.register .g-signin {
+	width: 100%;
+}
+.register .g-signin > div{
+	margin: 0 auto;
+}
+.gmailButton{
+	width: 197px;
+    height: 59px;
+}
+.gmailButton span{
+	font-size: 1.5rem;
+    margin: 0px 20px;
+}

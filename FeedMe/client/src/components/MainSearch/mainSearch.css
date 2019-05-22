@@ -1,0 +1,177 @@
+.mainFunc {
+  position: relative;
+  background-image: url('../../photos/searchPhoto.jpeg');
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+
+.mainFunc h1 {
+  position: relative;
+  font-size: 6em;
+  color: floralwhite;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.mainFunc .instruction {
+  position: relative;
+  top: 60px;
+}
+
+/* /----form--------/ */
+
+.mainFunc .recipeForm {
+  position: relative;
+  top: 100px;
+}
+.mainFunc .big {
+  font-size: 1.2em;
+}
+
+
+
+/* Custom dropdown */
+.mainFunc .custom-dropdown {
+  position: relative;
+  top: 0px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px;
+}
+
+.mainFunc .custom-dropdown select {
+
+  background-color: #1abc9c;
+  width: 300px;
+  color: #fff;
+  font-size: inherit;
+  padding: .5em;
+  padding-right: 2.5em; 
+  border: 0;
+  margin: 0;
+  border-radius: 3px;
+  text-indent: 0.01px;
+  text-overflow: '';
+  -webkit-appearance: button; /* hide default arrow in chrome OSX */
+}
+
+.mainFunc .custom-dropdown::before,
+.custom-dropdown::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+}
+
+.mainFunc .custom-dropdown::after { /*  Custom dropdown arrow */
+  content: "\25BC";
+  height: 1em;
+  font-size: .625em;
+  line-height: 1;
+  right: 1.2em;
+  top: 50%;
+  margin-top: -.5em;
+}
+
+.mainFunc .custom-dropdown::before { /*  Custom dropdown arrow cover */
+  width: 2em;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 0 3px 3px 0;
+}
+
+.mainFunc .custom-dropdown select[disabled] {
+  color: rgba(0,0,0,.3);
+}
+
+.mainFunc .custom-dropdown select[disabled]::after {
+  color: rgba(0,0,0,.1);
+}
+
+.mainFunc .custom-dropdown::before {
+  background-color: rgba(0,0,0,.15);
+}
+
+.mainFunc .custom-dropdown::after {
+  color: rgba(0,0,0,.4);
+}
+
+.mainFunc .send {
+  position: relative;
+  top: 160px;
+  display: block;
+  margin: 0 auto;
+  background-color: #1abc9c;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  width: 150px;
+}
+
+
+
+/* /-----cards------/ */
+
+
+.mainFunc .card{
+  display: inline-block;
+  margin: 20px;
+}
+.mainFunc .MealPhoto{
+width: 20vw;
+margin: 20px auto;
+display: block;
+text-align: center;
+
+}
+
+.mainFunc .card-body{
+padding: 3.25rem;
+text-align: center;
+  
+}
+.mainFunc .addIcon{
+font-size: 3rem;
+position: relative;
+}
+
+.mainFunc .addButton{
+  border: none;
+  background-color: white;
+}
+
+.mainFunc .strMeal{
+  text-align: center;
+}
+
+
+.mainFunc .recipeInstructions{
+display: block;
+background-color: #1abc9c;
+border: none;
+color: white;
+height: 80px;
+width: 145px;
+margin: 13px auto;
+font-size: 1.5rem;
+
+}
+
+.instructionsInfo {
+  width: 90vw;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.youtubeLink {
+      display: block;
+      font-size: 2rem;
+      text-decoration: none;
+      text-align: center;
+}

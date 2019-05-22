@@ -1,0 +1,89 @@
+.footer {
+    position: relative;
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 200px;
+}
+
+.footerLeft {
+    position: relative;
+    width: 33%;
+    text-align: center;
+    float: left;
+    height: 100%;
+}
+
+.title {
+    position: relative;
+    top: 30px;
+}
+
+.footerLeft p {
+    position: relative;
+    top: 30px;
+    width: 100%;
+}
+
+.footerLeft ul {
+    list-style-type: none;
+    position: relative;
+    top: 15px;
+    width: 100%;
+    top: 60px;
+    /* left: 50%; */
+
+}
+.footerLeft li {
+    position: relative; 
+    /* left: 150px;    */
+    width: 30%;
+}
+
+.fb {
+    position: relative;
+    float: left;
+    /* left: 150px; */
+}
+.twit {
+    position: relative;
+    float: left;
+    /* left: 190px; */
+}
+.insta {
+    position: relative;
+    float: left;
+    /* left: 230px; */
+}
+
+.footerCenter {
+    position: relative;
+    width: 33%;
+    text-align: center;
+    float: left;
+    height: 100%;
+}
+
+.footerCenter p {
+    position: relative;
+    top: 30px;
+}
+
+.footerRight {
+    position: relative;
+    width: 33%;
+    text-align: center;
+    float: right;
+    height: 100%;
+}
+
+.footerRight p {
+    position: relative;
+    top: 30px;
+}
+
+.fork {
+    position: relative;
+    top: 25px;
+}

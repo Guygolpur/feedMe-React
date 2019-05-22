@@ -1,0 +1,58 @@
+.profileImg{
+    display: block;
+    height: 500px;
+    margin: 0px auto;
+    top: 100px;
+    position: relative;
+    font-size: 9rem;
+
+}
+.profileName{
+    text-align: center;
+    top: 100px;
+    position: relative;
+    font-size: 5rem;
+    font-weight: bold;
+
+}
+.profileDetails{
+    text-align: center;
+    top: 100px;
+    position: relative;
+
+}
+.editIcon{
+    display: block;
+    margin: 0px auto;
+    top: 100px;
+    position: relative;
+    font-size: 5rem;
+
+}
+.profileForm{
+    display: block;
+    position: relative;
+    top: 137px;
+    width: 500px;
+    margin: 0px auto;
+
+}
+.profileForm span{
+    display: block;
+    margin: 20px;
+
+}
+.saveIcon{
+    display: block;
+    margin: 0px auto;
+    top: 100px;
+    position: relative;
+    font-size: 5rem;
+
+}
+.btn-primary{
+    display: block;
+    width: 200px;
+    height: 49px;
+    margin: 0px auto;
+}

@@ -1,0 +1,66 @@
+
+.ingredients {
+	background: url('../../photos/cover.jpg') no-repeat;
+	background-size:cover;
+	background-repeat:no-repeat;
+	min-height: 1150px;
+	text-align: center;
+	font-family: 'Arial';
+	color: #ffffff;
+}
+
+
+.ingredientList {
+	display: block;
+	font-family: 'Arial';
+	color: black;
+	font-style: italic;
+}
+.ingredientList .containingBox {
+	min-height: 700px;
+	width: 1300px;
+	background-color: #fffaf7;
+	opacity: 0.95;
+	border-radius: 20px;
+	float: left;
+	left: 50%;
+	margin-left: -640px;
+	margin-top: 80px;
+	padding-bottom: 80px; 
+	position: absolute;
+}
+.ingredientList h1 {
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px; 
+	font-size: 48px;
+	color: rgb(95, 68, 55);
+	text-shadow: 1px 1px 2px;
+}
+.ingredientList .ingredientBox {
+	height: 140px;
+	width: 140px;
+	margin-left: 20px;
+	margin-top: 20px;
+	background-color: rgb(255, 246, 235);
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+	text-shadow: 1px 1px 1px grey;
+	float: left;
+	color: rgb(247, 75, 45);
+}
+.ingredientList h2 {
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-bottom: 10px;
+	font-size: 26px;
+	text-align: left;
+	color: green;
+}
+.ingredientList h4 {
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	font-size: 16px;
+	text-align: left;
+}
