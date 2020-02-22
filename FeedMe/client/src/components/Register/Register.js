@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import GoogleLogin from 'react-google-login';
 import './Register.css'
-export let Gmail = "barazouri24@gmail.com";
+export let Gmail = "guygolpur@gmail.com";
  
 export default class Register extends Component {
 

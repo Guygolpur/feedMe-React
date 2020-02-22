@@ -14,9 +14,9 @@ class MainSearch extends Component {
         this.state = {
           ingredients: [],
           recipesList: [],
-          ingredient1: null,
-          ingredient2: null,
-          ingredient3: null,
+          ingredient1: "",
+          ingredient2: "",
+          ingredient3: "",
           userName: null,
           strMeal:null,
 
