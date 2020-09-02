@@ -13,7 +13,7 @@
     "body-parser": "^1.18.3",
     "clone": "^2.1.2",
     "express": "^4.16.4",
-    "googleapis": "^27.0.0",
+    "googleapis": "^39.1.0",
     "json-deep-copy": "^1.0.2",
     "mongoose": "^5.4.4",
     "unirest": "^0.5.1"
